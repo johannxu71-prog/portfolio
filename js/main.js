@@ -7,11 +7,11 @@
    保存后刷新页面，「观看正片」按钮即可跳转。
    留空的作品按钮会显示为"正片链接待补充"。 */
 const VIDEO_LINKS = {
-  weiguanji: "",     // 《未关机》
-  ai_poem: "",       // 《AI的诗》
-  yiqie_haihao: "",  // 《一切还好》
-  jingzhi: "",       // 《精致的代价》
-  anerkang: ""       // 安尔康广告片
+  weiguanji: "",                                        // 《未关机》
+  ai_poem: "https://www.bilibili.com/video/BV1c3411o7dW/",       // 《AI的诗》
+  yiqie_haihao: "https://www.bilibili.com/video/BV1eSpszvE9F/",  // 《一切还好》
+  jingzhi: "https://www.bilibili.com/video/BV1QYwDzSEtV/",       // 《精致的代价》
+  anerkang: ""                                          // 安尔康广告片
 };
 
 /* ---------- 观看正片按钮 ---------- */
