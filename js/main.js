@@ -8,6 +8,7 @@
    留空的作品按钮会显示为"正片链接待补充"。 */
 const VIDEO_LINKS = {
   weiguanji: "",                                        // 《未关机》
+  mechanics_secret: "https://www.tiktok.com/shortdrama/episode/7660927281392669704/1?q=mechanic%E2%80%98s%20secret&t=1791541139884",  // 《Mechanic's Secret: Speed God》
   ai_poem: "https://www.bilibili.com/video/BV1c3411o7dW/",       // 《AI的诗》
   yiqie_haihao: "https://www.bilibili.com/video/BV1eSpszvE9F/",  // 《一切还好》
   jingzhi: "https://www.bilibili.com/video/BV1QYwDzSEtV/",       // 《精致的代价》
