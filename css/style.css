@@ -274,6 +274,28 @@ a { color: inherit; text-decoration: none; }
 }
 .about-photo:hover img { filter: saturate(1); }
 .about-text p { color: var(--text-dim); font-size: 15px; margin-bottom: 18px; max-width: 62ch; }
+.about-block { margin-bottom: 26px; }
+.about-subtitle {
+  font-family: var(--serif);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+.about-list { list-style: none; margin: 0; padding: 0; max-width: 62ch; }
+.about-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 14px;
+  color: var(--text-dim);
+}
+.about-list li:last-child { border-bottom: none; }
+.about-list-time { flex-shrink: 0; font-size: 12px; letter-spacing: 0.08em; color: var(--gold); }
 .about-skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
 .about-skills span {
   font-size: 12px;
